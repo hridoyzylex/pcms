@@ -1,0 +1,66 @@
+
+.container {
+    height: 40em;
+    position: relative 
+}
+
+
+h1{
+	color: Khaki; 
+	font-size: 48px; 
+	font-family: 'Signika', sans-serif; 
+	padding-bottom: 10px; 
+	text-align: center;
+	text-decoration: underline;
+}
+
+.container table {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.container img{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+	width:170px;
+	height:160px
+}
+
+
+input [type = "text"] , input[type = "text"]{
+	width: 300px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #c6c6c6;
+}
+
+input [type = "text"] , input[type = "date"]{
+	width: 150px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #c6c6c6;
+}
+
+
+.container button{
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    background-color: Khaki;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #c6c6c6;
+}	
+
+.container button:hover{
+	background-color: red;
+}

@@ -1,0 +1,22 @@
+ul{
+	list-style: none;
+	margin-left: 5%
+}
+
+h2{
+
+	text-decoration: underline;
+	text-align: center;
+
+
+}
+
+li img[title='fruits']{
+	border: 3px groove white;
+	display: none;
+}
+
+
+#slider{
+	float: left;
+}

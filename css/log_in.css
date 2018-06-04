@@ -1,0 +1,88 @@
+.cover{
+	background-image: url("sign_in.jpg");
+}
+
+
+.container {
+    height: 40em;
+    position: relative }
+
+	
+h1 { 
+	text-align: center;
+	color: white; 
+	font-size: 48px; 
+	font-family: 'Signika', sans-serif; 
+	padding-bottom: 10px; 
+}
+h2 { 
+	text-align: center;
+	color: black; 
+	font-size: 28px; 
+	font-family: 'Signika', sans-serif; 
+	padding-bottom: 10px; 
+}	
+	
+.container table {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.hel{
+	padding-top: 30px;
+}
+
+input [type = "text"] , input[type = "password"]{
+	width: 300px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #c6c6c6;
+}
+
+input [type = "text"] , input[type = "text"]{
+	width: 300px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #c6c6c6;
+}
+
+input [type = ""] ,[type = "submit"] {
+    margin: 0;
+    position: absolute;
+    left: 26%;
+    margin-right: -50%;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #c6c6c6;;
+}
+
+input [type = ""] ,[type = "submit"]:hover {
+	background-color: #159fea;
+	border: 2px solid white;
+	color: white;
+}
+
+
+.container button{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 5px solid red;
+}	
+
+.container button:hover{
+	background-color: orange;
+}	
